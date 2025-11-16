@@ -1,0 +1,20 @@
+# dotnet
+bin/
+obj/
+out-api/
+out-api2/
+out-front/
+*.db-shm
+*.db-wal
+
+# Angular
+devops-front/node_modules/
+dist/
+
+# Logs
+*.log
+logs/
+C:/inetpub/
+
+# VSCode
+.vscode/
