@@ -1,0 +1,121 @@
+[2025-11-15 16:08:08] INICIO de las comprobaciones de entorno
+[2025-11-15 16:08:08] Comprobando servicio W3SVC (IIS)...
+[2025-11-15 16:08:08] Servicio W3SVC encontrado. Estado: Running
+[2025-11-15 16:08:08] Comprobando puerto 5000 (API)...
+[2025-11-15 16:08:13] Puerto 5000 accesible (TCP OK).
+[2025-11-15 16:08:13] Comprobando puerto 1433 (SQL Server)...
+[2025-11-15 16:08:18] Puerto 1433 accesible (TCP OK).
+[2025-11-15 16:08:18] Prueba funcional de la API: GET http://localhost:5000/api/Users ...
+[2025-11-15 16:08:20] API OK. /api/Users responde 200. Total usuarios devueltos: 14.
+[2025-11-15 16:08:20] Prueba funcional de SQL Server: contar registros en DevOpsCurso.dbo.Users ...
+[2025-11-15 16:08:20] SQL respondió, pero no se pudo interpretar el resultado de sqlcmd:
+[2025-11-15 16:08:20] TotalUsers  -----------          14
+[2025-11-15 16:08:20] FIN de las comprobaciones de entorno
+[2025-11-15 16:13:03] INICIO de las comprobaciones de entorno
+[2025-11-15 16:13:03] Comprobando servicio W3SVC (IIS)...
+[2025-11-15 16:13:03] Servicio W3SVC encontrado. Estado: Running
+[2025-11-15 16:13:03] Comprobando puerto 5000 (API)...
+[2025-11-15 16:13:08] Puerto 5000 accesible (TCP OK).
+[2025-11-15 16:13:08] Comprobando puerto 1433 (SQL Server)...
+[2025-11-15 16:13:13] Puerto 1433 accesible (TCP OK).
+[2025-11-15 16:13:13] Prueba funcional de la API: GET http://localhost:5000/api/Users ...
+[2025-11-15 16:13:15] API OK. /api/Users responde 200. Total usuarios devueltos: 14.
+[2025-11-15 16:13:15] Prueba funcional de SQL Server: contar registros en DevOpsCurso.dbo.Users ...
+[2025-11-15 16:13:15] SQL OK. Tabla dbo.Users en DevOpsCurso tiene 14 registros.
+[2025-11-15 16:13:15] FIN de las comprobaciones de entorno
+[2025-11-15 16:19:21] Inicio de las comprobaciones
+[2025-11-15 16:19:21] Comprobando servicio W3SVC
+[2025-11-15 16:19:21] Servicio W3SVC: Running
+[2025-11-15 16:19:21] Comprobando puerto 5000
+[2025-11-15 16:19:26] Puerto 5000 accesible
+[2025-11-15 16:19:26] Comprobando puerto 1433
+[2025-11-15 16:19:31] Puerto 1433 accesible
+[2025-11-15 16:19:31] Prueba funcional API /api/Users
+[2025-11-15 16:19:34] API responde con 200 OK
+[2025-11-15 16:19:34] Prueba funcional SQL con sqlcmd
+[2025-11-15 16:19:34] SQL OK. Resultado: 14
+[2025-11-15 16:19:34] RESULTADO FINAL: OK
+[2025-11-16 20:59:34] Inicio de las comprobaciones
+[2025-11-16 20:59:34] Comprobando servicio W3SVC
+[2025-11-16 20:59:34] Servicio W3SVC: Running
+[2025-11-16 20:59:34] Comprobando puerto 5000
+[2025-11-16 20:59:47] Puerto 5000 accesible
+[2025-11-16 20:59:47] Comprobando puerto 1433
+[2025-11-16 20:59:52] Puerto 1433 accesible
+[2025-11-16 20:59:52] Prueba funcional API /api/Users
+[2025-11-16 20:59:52] ERROR: No se pudo llamar a la API: Error en el servidor remoto: (500) Error interno del servidor.
+[2025-11-16 20:59:52] Prueba funcional SQL con sqlcmd
+[2025-11-16 20:59:52] SQL OK. Resultado: 14
+[2025-11-16 20:59:52] RESULTADO FINAL: ERROR
+[2025-11-16 22:59:53] Inicio de las comprobaciones
+[2025-11-16 22:59:53] Comprobando servicio W3SVC
+[2025-11-16 22:59:53] Servicio W3SVC: Running
+[2025-11-16 22:59:53] Comprobando puerto 5000
+[2025-11-16 23:00:06] ERROR: Puerto 5000 no accesible
+[2025-11-16 23:00:06] Comprobando puerto 1433
+[2025-11-16 23:00:11] Puerto 1433 accesible
+[2025-11-16 23:00:11] Prueba funcional API /api/Users
+[2025-11-16 23:00:15] ERROR: No se pudo llamar a la API: No es posible conectar con el servidor remoto
+[2025-11-16 23:00:15] Prueba funcional SQL con sqlcmd
+[2025-11-16 23:00:15] SQL OK. Resultado: 14
+[2025-11-16 23:00:15] RESULTADO FINAL: ERROR
+[2025-11-16 23:04:01] Inicio de las comprobaciones
+[2025-11-16 23:04:01] Comprobando servicio W3SVC
+[2025-11-16 23:04:01] Servicio W3SVC: Running
+[2025-11-16 23:04:01] Comprobando puerto 5000
+[2025-11-16 23:04:08] ERROR: Puerto 5000 no accesible
+[2025-11-16 23:04:08] Comprobando puerto 1433
+[2025-11-16 23:04:14] Puerto 1433 accesible
+[2025-11-16 23:04:14] Prueba funcional API /api/Users
+[2025-11-16 23:04:18] ERROR: No se pudo llamar a la API: No es posible conectar con el servidor remoto
+[2025-11-16 23:04:18] Prueba funcional SQL con sqlcmd
+[2025-11-16 23:04:18] SQL OK. Resultado: 14
+[2025-11-16 23:04:18] RESULTADO FINAL: ERROR
+[2025-11-17 00:03:14] Inicio de las comprobaciones
+[2025-11-17 00:03:14] Comprobando servicio W3SVC
+[2025-11-17 00:03:14] Servicio W3SVC: Running
+[2025-11-17 00:03:14] Comprobando puerto 5000
+[2025-11-17 00:03:24] Puerto 5000 accesible
+[2025-11-17 00:03:24] Comprobando puerto 1433
+[2025-11-17 00:03:29] Puerto 1433 accesible
+[2025-11-17 00:03:29] Prueba funcional API /api/Users
+[2025-11-17 00:03:31] API responde con 200 OK
+[2025-11-17 00:03:31] Prueba funcional SQL con sqlcmd
+[2025-11-17 00:03:31] SQL OK. Resultado: 14
+[2025-11-17 00:03:31] RESULTADO FINAL: OK
+[2025-11-17 00:06:01] Inicio de las comprobaciones
+[2025-11-17 00:06:01] Comprobando servicio W3SVC
+[2025-11-17 00:06:01] Servicio W3SVC: Running
+[2025-11-17 00:06:01] Comprobando puerto 5000
+[2025-11-17 00:06:06] Puerto 5000 accesible
+[2025-11-17 00:06:06] Comprobando puerto 1433
+[2025-11-17 00:06:11] Puerto 1433 accesible
+[2025-11-17 00:06:11] Prueba funcional API /api/Users
+[2025-11-17 00:06:13] API responde con 200 OK
+[2025-11-17 00:06:13] Prueba funcional SQL con sqlcmd
+[2025-11-17 00:06:13] SQL OK. Resultado: 15
+[2025-11-17 00:06:13] RESULTADO FINAL: OK
+[2025-11-17 00:27:18] Inicio de las comprobaciones
+[2025-11-17 00:27:18] Comprobando servicio W3SVC
+[2025-11-17 00:27:18] Servicio W3SVC: Running
+[2025-11-17 00:27:18] Comprobando puerto 5000
+[2025-11-17 00:27:24] Puerto 5000 accesible
+[2025-11-17 00:27:24] Comprobando puerto 1433
+[2025-11-17 00:27:29] Puerto 1433 accesible
+[2025-11-17 00:27:29] Prueba funcional API /api/Users
+[2025-11-17 00:27:31] API responde con 200 OK
+[2025-11-17 00:27:31] Prueba funcional SQL con sqlcmd
+[2025-11-17 00:27:31] SQL OK. Resultado: 15
+[2025-11-17 00:27:31] RESULTADO FINAL: OK
+[2025-11-17 00:28:32] Inicio de las comprobaciones
+[2025-11-17 00:28:32] Comprobando servicio W3SVC
+[2025-11-17 00:28:32] Servicio W3SVC: Running
+[2025-11-17 00:28:32] Comprobando puerto 5000
+[2025-11-17 00:28:38] Puerto 5000 accesible
+[2025-11-17 00:28:38] Comprobando puerto 1433
+[2025-11-17 00:28:43] Puerto 1433 accesible
+[2025-11-17 00:28:43] Prueba funcional API /api/Users
+[2025-11-17 00:28:43] API responde con 200 OK
+[2025-11-17 00:28:43] Prueba funcional SQL con sqlcmd
+[2025-11-17 00:28:43] SQL OK. Resultado: 15
+[2025-11-17 00:28:43] RESULTADO FINAL: OK
