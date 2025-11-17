@@ -1,20 +1,12 @@
-# dotnet
-bin/
-obj/
+DevOpsCurso.Api/bin/
+DevOpsCurso.Api/obj/
 out-api/
 out-api2/
-out-front/
-*.db-shm
-*.db-wal
+out-api-fresh/
+out-api-iis/
 
-# Angular
 devops-front/node_modules/
-dist/
+devops-front/dist/
 
-# Logs
-*.log
-logs/
-C:/inetpub/
-
-# VSCode
-.vscode/
+.vs/
+*.user
