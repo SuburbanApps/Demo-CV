@@ -138,3 +138,4 @@ C:\DevopsCurso\DevOpsCurso.Api\obj\Release\net8.0\refint\DevOpsCurso.Api.dll
 C:\DevopsCurso\DevOpsCurso.Api\obj\Release\net8.0\DevOpsCurso.Api.pdb
 C:\DevopsCurso\DevOpsCurso.Api\obj\Release\net8.0\DevOpsCurso.Api.genruntimeconfig.cache
 C:\DevopsCurso\DevOpsCurso.Api\obj\Release\net8.0\ref\DevOpsCurso.Api.dll
+C:\DevopsCurso\DevOpsCurso.Api\obj\Release\net8.0\DevOpsCurso.Api.sourcelink.json
